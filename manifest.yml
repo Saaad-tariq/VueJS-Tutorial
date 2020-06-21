@@ -5,5 +5,5 @@ applications:
       domain: mybluemix.net
       name: vuejstut
       host: vuejstut
-      disk_quota: 2564M
+      disk_quota: 256M
       buildpack: sdk-for-nodejs
