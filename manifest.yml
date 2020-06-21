@@ -5,4 +5,4 @@ applications:
       name: vuejstut
       host: vuejstut
       disk_quota: 256M
-      buildpack: sdk-for-nodejs
+      buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
