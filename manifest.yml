@@ -1,6 +1,9 @@
 applications:
-    - name: vue-tutorial
-        buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-        random-route: true
-        memory: 256M
-        
+    - path: .
+      memory: 256M
+      instances: 1
+      domain: mybluemix.net
+      name: vuejstut
+      host: vuejstut
+      disk_quota: 2564M
+      buildpack: sdk-for-nodejs
